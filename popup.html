@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Did You Pray Today?</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="shuffle-link" id="shuffleBtn" title="Shuffle Verse">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shuffle-icon"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line><line x1="4" y1="4" x2="9" y2="9"></line></svg>
+    </a>
+    <a href="https://www.bible.com/bible/111/JHN.1.NIV" target="_blank" class="bible-link" title="Open YouVersion Bible">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="book-icon"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
+    </a>
+    <div class="header">
+      <h1 class="time" id="timeDisplay">--:--</h1>
+      <p class="date" id="dateDisplay">---</p>
+    </div>
+    
+    <div class="card">
+      <p class="question">Did You Pray Today?</p>
+      <div class="verse-container">
+        <h2 class="reference" id="verseReference">Loading...</h2>
+        <p class="text" id="verseText"></p>
+        
+        <div class="meaning-dropdown">
+          <button class="meaning-btn" id="meaningBtn">
+            <span>Meaning</span>
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="meaning-content" id="meaningContent">
+            <p id="verseMeaning"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="verses.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
