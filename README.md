@@ -1,6 +1,6 @@
 # 🙏 Did You Pray Today?
 
-**Did You Pray Today?** is a beautiful, inspiring Google Chrome extension designed to bring a moment of reflection and peace to your daily browsing experience. 
+**Did You Pray Today?** is a beautiful, inspiring extension built for Google Chrome and other Chromium-based browsers, designed to bring a moment of reflection and peace to your daily browsing experience. 
 
 ## ✨ Features
 
@@ -12,10 +12,10 @@
 
 ## 🚀 Installation
 
-*Note: Since this extension is currently in development, you can install it manually in Chrome.*
+*Note: Since this extension is currently in development, you can install it manually in Chrome or any Chromium-based browser (e.g., Edge, Brave, Opera). Please note that the experience may differ slightly outside of Google Chrome.*
 
 1. Clone or download this repository.
-2. Open Google Chrome and navigate to `chrome://extensions/`.
+2. Open Google Chrome (or your Chromium-based browser) and navigate to `chrome://extensions/` (or your browser's corresponding extensions page).
 3. Enable **Developer mode** in the top right corner.
 4. Click on **Load unpacked** and select the folder containing this extension's files.
 5. The extension is now installed! Pin it to your toolbar for easy access.
